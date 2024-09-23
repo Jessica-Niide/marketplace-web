@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  :root {
+    --orange-base:hsl( 16.77 89.8% 50%);
+    --orange-dark:hsl( 16.6 92.16% 40%);
+    --blue-light: 197.65 73.91% 90.98%;
+    --blue-base: 201.13 97.55% 68.04%;
+    --blue-dark: 201 100% 47.06%;
+    --fill: 0 35.48% 93.92%;
+    --background-custom: 0, 46.67%, 97.06%;
+    --gray-100: 0 0% 67.84%;
+    --gray-200: hsl(0 0% 58.04%);
+    --gray-300: hsl(0 0% 40%);
+    --gray-400: 0 0% 23.92%;
+    --gray-500: 0 0% 11.37%;
+    --success: 133.7 61.35% 40.59%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 40%;
+    --card: 0 0% 100%;
+    --card-foreground: hsl(20 14.3% 4.1%);
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 40%;
+    --primary: 16.77 89.8% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: hsl(60 4.8% 95.9%);
+    --secondary-foreground: hsl(0 0% 11.37%);
+    --muted:  0, 35.48%, 93.92%;
+    --muted-foreground: 0 0% 58.04%;
+    --accent: 16.6 92.16% 40%;
+    --accent-foreground: hsl(24 9.8% 10%);
+    --destructive:hsl(354.25 70.46% 53.53%);
+    --destructive-foreground: hsl(60 9.1% 97.8%);
+    --border: 20 5.9% 90%;
+    --input: 16.77 89.8% 50%;
+    --ring: hsl(24.6 95% 53.1%);
+    --radius: 0.85rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
